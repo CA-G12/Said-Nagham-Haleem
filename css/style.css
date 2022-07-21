@@ -56,3 +56,80 @@ body{
     color:#ffffff;
   }
   
+  /* question section style  */
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.questions-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:35rem;
+    height: auto;
+    background-color: white;
+
+}
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.number-of-questions {
+    margin-left: 90%;
+    font-size: 5px;
+  }
+.question input{
+    text-align: center;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    
+   
+
+}
+.questions-box button{
+    text-align: center;
+    background-color: #F79256;
+    border-radius: 0.5rem;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+form div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.option{
+    background-color:#56F78D;
+    min-width: 250px;
+    min-height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 5px;
+box-shadow: 0.3rem 0.1rem 0.4rem gray;
+}
+.next-question-button {
+    justify-content: last baseline ;
+    width: 330px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F79256;
+    color: white;
+    margin-top: 20px;
+  }
+
+
+/* question section style end  */
