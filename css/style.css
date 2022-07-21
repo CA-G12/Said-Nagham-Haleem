@@ -57,12 +57,6 @@ body{
   }
   
   /* question section style  */
-  body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 .questions-box{
     display: flex;
     flex-direction: column;
