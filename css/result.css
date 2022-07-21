@@ -1,53 +1,107 @@
-body{
-    font: 15px/1.5 Arial, Helvetica,sans-serif;
-    padding:0;
-    margin:0;
-    background-color:#f4f4f4;
-  }
-  .container{
-    width:80%;
-    margin:auto;
-    overflow:hidden;
-  }
-  header{
-    background:#8c8e8f;
-    color:#F79256;
-    padding-top:15px;
-    min-height:70px;
-  }
-  header i{
-      margin-top: 30px;
-      font-size: 2rem;
-  }
-  header h2{
-    float: left;
-    padding-right: 5px;
-    font-size: 2rem;
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 }
-#Explanation{
-    min-height:400px;
-  text-align:center;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
-#Explanation h3{
-    margin-top:100px;
-    font-size:2rem;
-    margin-bottom:5px;
+header {
+  background: #8c8e8f;
+  color: #f79256;
+  padding-top: 15px;
+  min-height: 70px;
 }
-#Explanation p{
-    font-size:1.2rem;
-    margin-bottom:10px;
+header i {
+  margin-top: 30px;
+  font-size: 2rem;
 }
-#Explanation form{
-    display: inline-block;
-    /* margin-top:15px; */
-    margin-left: 60px;
+header h2 {
+  float: left;
+  padding-right: 5px;
+  font-size: 2rem;
 }
-.btn1{
-    height:40px;
-    width: 100px;
-    background-color:#F79256;
-    border:0;
-    padding-left: 20px;
-    padding-right:20px;
-    color:#ffffff;
+#Explanation {
+  min-height: 400px;
+  text-align: center;
+}
+#Explanation h3 {
+  margin-top: 100px;
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+#Explanation p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+#Explanation form {
+  display: inline-block;
+  /* margin-top:15px; */
+  margin-left: 60px;
+}
+.btn1 {
+  height: 40px;
+  width: 100px;
+  background-color: #f79256;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+/* style for leaderBoard
+ */
+.leader-board-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2rem;
+}
+.leader-board {
+  width: 30rem;
+  height: auto;
+  background: #f4f4f4;
+  box-shadow: 0.3rem 0.1rem 0.4rem gray;
+  border-radius: 0.8rem;
+}
+.leader-board h2 {
+  margin: 0.5rem;
+}
+.players {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+}
+.card {
+  margin: 0.5rem;
+  display: flex;
+  background: #f79256;
+  border-radius: 0.8rem;
+  justify-content: space-around;
+  box-shadow: 0.3rem 0.1rem 0.4rem gray;
+}
+.btn-join {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+  text-align: center;
+  background: #62a30c;
+}
+.btn-join:hover {
+  background: #48770a;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .leader-board {
+    width: 20rem;
+    height: 30rem;
   }
+}
